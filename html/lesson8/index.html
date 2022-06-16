@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="./01-result.html" method="get">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="my-name">
+    <br><br>
+    <label for="age">Age</label>
+    <input type="number" id="id" name="my-age">
+    <br><br>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+  </form>
+  <br><br>
+  <form>
+    <fieldset>
+      <legend>반장</legend>
+
+      <label for="name">이름</label>
+      <input id="name_1" name="name_1" type="text">
+      <br><br>
+
+      <label for="age">나이</label>
+      <input id="age_1" name="age_1" type="number">
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend>부반장</legend>
+
+      <label for="name">이름</label>
+      <input id="name_2" name="name_2" type="text">
+      <br><br>
+
+      <label for="age">나이</label>
+      <input id="age_2" name="age_2" type="number">
+
+    </fieldset>
+    <br>
+
+    <fieldset form="classForm" disabled>
+      <legend>서기</legend>
+
+      <label for="name">이름</label>
+      <input id="name_3" name="name_3" type="text">
+      <br><br>
+
+      <label for="age">나이</label>
+      <input id="age_3" name="age_3" type="number">
+    </fieldset>
+  </form>
+</body>
+
+</html>
