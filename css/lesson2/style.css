@@ -1,0 +1,58 @@
+p.style {
+  /* normal, italic, oblique */
+  font-style: italic;
+}
+
+p.weight {
+  /* normal, bold, 100~900 */
+  font-weight: bold;
+}
+
+.em {
+  font-size: 1.5em;
+}
+
+.rem {
+  font-size: 1.5rem;
+}
+
+#deco1 {
+  text-decoration: underline;
+}
+
+#deco2 {
+  text-decoration: line-through
+}
+
+#deco3 {
+  text-decoration: line-through underline
+}
+
+#deco4 {
+  text-decoration: wavy underline tomato
+}
+
+#deco5 {
+  text-decoration: dotted line-through deeppink
+}
+
+p.cap {
+  text-transform: capitalize;
+}
+
+p.upper {
+  text-transform: uppercase
+}
+
+p.shadow {
+  text-shadow:
+    /* 안쪽 흰색 그림자 */
+    1px 0 white, -1px 0 white, 0 1px white, 0 -1px white,
+    1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white,
+
+    /* 바깥쪽 미국자두색 그림자 */
+    2px 0 plum, -2px 0 plum, 0 2px plum, 0 -2px plum,
+    2px 1px plum, -2px 1px plum, 1px 2px plum, 1px -2px plum,
+    2px -1px plum, -2px -1px plum, -1px 2px plum, -1px -2px plum,
+    2px 2px plum, 2px -2px plum, -2px 2px plum, -2px -2px plum;
+}
