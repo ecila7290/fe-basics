@@ -1,0 +1,50 @@
+p.right {
+  /* left, center, right, justify */
+  text-align: right;
+
+  letter-spacing: 0.8rem;
+  word-spacing: 0;
+  line-height: 1.5em;
+}
+
+p.center {
+  /* left, center, right, justify */
+  text-align: center;
+
+  letter-spacing: 0;
+  word-spacing: 1.2em;
+  line-height: 0.5em;
+}
+
+p.justify {
+  /* left, center, right, justify */
+  text-align: justify;
+
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 2rem;
+}
+
+p.indent-plus {
+  text-indent: 1.2em;
+}
+
+p.indent-minus {
+  text-indent: -1.2em;
+}
+
+ul.num-ul {
+  list-style: decimal;
+}
+
+ol.bullet-ol {
+  list-style: disc;
+}
+
+ul.custom>li:first-child {
+  list-style: '🤜';
+}
+
+ul.custom>li:last-child {
+  list-style: url('https://showcases.yalco.kr/html-css/02-03/yalco.png');
+}
