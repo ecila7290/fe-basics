@@ -1,0 +1,40 @@
+span {
+  color: white;
+  background-color: rgb(129, 46, 197);
+}
+
+div {
+  color: white;
+  background-color: tomato;
+}
+
+.div-inline {
+  display: inline;
+}
+
+.span-block {
+  display: block;
+}
+
+.inln-blk {
+  display: inline-block;
+}
+
+ul>li {
+  margin-right: 2em;
+  display: inline-block;
+  background-color: blanchedalmond;
+  padding: 8px;
+}
+
+ul.inline>li {
+  margin-right: 2em;
+  display: inline;
+  background-color: blanchedalmond;
+  padding: 8px;
+}
+
+p {
+  margin: 8px;
+  display: inline-block
+}
