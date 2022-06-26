@@ -1,0 +1,43 @@
+div.div1 {
+  color: white;
+  background-color: rgb(105, 35, 163);
+  width: 70vw;
+  height: 160px;
+  text-align: center;
+}
+
+div.div2 {
+  color: white;
+  background-color: rgb(105, 35, 163);
+  width: 50vmax;
+  height: 160px;
+  text-align: center;
+}
+
+div.div3 {
+  color: white;
+  background-color: rgb(105, 35, 163);
+  width: 50vmin;
+  height: 160px;
+  text-align: center;
+  line-height: 160px;
+}
+
+div.div4 {
+  margin: 48px;
+  padding: 16px;
+  background-color: lightblue;
+}
+
+div.div5 {
+  margin: 48px;
+  padding: 16px;
+  background-color: lightpink;
+}
+
+div.div6 {
+  width: 160px;
+  height: 160px;
+  background-color: lightgrey;
+  margin: 0 auto
+}
