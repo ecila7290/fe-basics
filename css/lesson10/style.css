@@ -1,0 +1,43 @@
+div.opa {
+  width: 700;
+  height: 300px;
+  background-color: white;
+}
+
+div.opa>div {
+  display: inline-block;
+  background-color: lightblue;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+.a {
+  opacity: 1;
+}
+
+.b {
+  opacity: 0.5;
+}
+
+.c {
+  opacity: 0;
+}
+
+div.dp {
+  width: 700;
+  height: 300px;
+  background-color: white;
+}
+
+div.dp>div {
+  display: inline-block;
+  background-color: lightcoral;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+div.dp>div.g {
+  display: none;
+}
