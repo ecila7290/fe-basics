@@ -56,5 +56,3 @@
   - floats: normal flow로부터 제외됨, 주변의 text, inline element는 float element를 감싸게 된다. (=주변의 content가 변형됨)
   - absolute positioning: normal flow로부터 제외됨, 그러나 주변 content, element에 영향 주지 않음
 - stacking context: 요소가 페이지에 렌더링되는 순서. 보통 z-index로 설정하나 opacity 등 다른 CSS property 도 영향을 줄 수 있다는 점에 주의
-
-## CSS Architecture, Components and BEM
