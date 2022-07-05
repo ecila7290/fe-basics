@@ -1,0 +1,22 @@
+{
+  "name": "fe-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass css-advanced/section3/natours/sass/main.scss css-advanced/section3/natours/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecila7290/fe-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecila7290/fe-basics/issues"
+  },
+  "homepage": "https://github.com/ecila7290/fe-basics#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
