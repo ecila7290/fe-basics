@@ -11,4 +11,4 @@ float의 경우 컨테이너의 높이를 0으로 만들어버린다. 이는 flo
 - attribute selector: 주어진 특성의 존재 여부나 그 값에 따라 요소를 선택할 수 있다. 접두사/접미사 등도 사용 가능.
   https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_selectors
 
-- (-webkit)background-clip: text & colo: transparent로 설정하면 배경 색이 텍스트에 적용된다.
+- (-webkit)background-clip: text & colo: transparent로 설정하면 배경 색이 텍스트에만 적용된다.
