@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass css-advanced/section3/natours/sass/main.scss css-advanced/section3/natours/css/style.css -w"
+    "compile:sass": "node-sass css-advanced/section4/sass/main.scss css-advanced/section4/css/style.css -w"
   },
   "repository": {
     "type": "git",
