@@ -12,3 +12,9 @@ float의 경우 컨테이너의 높이를 0으로 만들어버린다. 이는 flo
   https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_selectors
 
 - (-webkit)background-clip: text & colo: transparent로 설정하면 배경 색이 텍스트에만 적용된다.
+
+- outline: 박스에 테두리를 그려준다.
+  <br>
+- border vs outline
+  - border는 특정 테두리에만 효과를 줄 수 있다. 또한 옵션으로 주는 두께만큼 박스의 크기도 늘어난다.
+  - outline은 offset을 통해 간격을 조절할 수 있다. 또한 요소 밖에서 생성되어 박스 크기에 영향을 주지 않는다.
