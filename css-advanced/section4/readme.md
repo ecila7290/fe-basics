@@ -59,8 +59,12 @@ hidden으로 설정하면 요소의 뒷부분을 숨긴다.
 - blur: 이미지가 흐릿해짐. px 단위의 값을 받고 값이 클수록 더 흐려진다.
 - brightness: 이미지를 밝거나 어둡게. % 또는 0~1 사이의 값.
 
-## background video
-
 ## video element
 
+video 태그를 통해 영상을 추가할 수 있다. 이 때 src 옵션에 출처를 넣는 대신 태그 안에 source태그를 넣으면 여러개를 넣을 수 있다. 이 방법으로 브라우저에 맞는 영상 확장자(mp4, webm 등)가 재생될 수 있도록 할 수 있다. (js를 사용하게 되면 필요 없을 것 같다.)
+
 ## object-fit property
+
+img, video와 같은 요소의 크기를 어떻게 조절할지 선택할 수 있다. https://developer.mozilla.org/ko/docs/Web/CSS/object-fit
+
+- cover: 콘텐츠의 가로세로비를 유지하면서 요소의 콘텐츠 박스를 가득 채운다. 가로세로 비율이 일치하지 않으면 객체 일부가 잘려나간다.

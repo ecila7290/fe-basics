@@ -1,7 +1,7 @@
 .story {
   width: 75%;
   margin: 0 auto;
-  background-color: $color-white;
+  background-color: rgba($color-white, $alpha: .6);
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
   padding: 6rem;
   padding-left: 9rem;
