@@ -95,3 +95,18 @@ linear-gradient의 color-stop 설정을 활용해서 solid-color와 transparent�
   radio button 등이 선택되었을 때의 스타일을 지정할 수 있도록 한다.
 
 ## build custom radio buttons
+
+라디오 버튼의 체크 형태는 변경할 수 없다. 따라서 이를 `display: none`으로 설정하고 별도로 span 태그의 border를 원하는 형태로 설정하여 버튼을 대신하도록 하는 방식으로 커스텀 버튼을 사용한다.
+
+## checkbox hack
+
+햄버거에서 내비게이션 링크가 모여있는 화면을 띄울 때 checkbox hack을 사용한다. <br>
+이를 적용하는 방법은, 클릭하면 사라지는 checkbox를 설정하고 해당 checkbox와 연결된 label을 설정한다. checkbox가 클릭되면(pseudo-class 사용) 내비게이션 링크가 모인 화면을 보여주도록 한다.
+
+## cubic bezier curves
+
+custom animation timing functions
+
+## animate 'solid-color gradients'
+
+## how and why to use transform-origin
