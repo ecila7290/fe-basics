@@ -91,4 +91,7 @@ linear-gradient의 color-stop 설정을 활용해서 solid-color와 transparent�
 - :placeholder-shown
   input, textarea 등에서 placeholder를 설정한 상태일 때, placeholder가 나타난 경우의 스타일을 지정.
 
+- checked
+  radio button 등이 선택되었을 때의 스타일을 지정할 수 있도록 한다.
+
 ## build custom radio buttons
