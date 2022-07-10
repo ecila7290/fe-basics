@@ -47,3 +47,20 @@ hidden으로 설정하면 요소의 뒷부분을 숨긴다.
 ## box-decoration-break
 
 요소가 여러줄, 컬럼, 페이지로 분할되었을 때, 분할된 조각을 어떻게 렌더링할지 정할 수 있다. clone 옵션을 주면 각각의 조각이 하나의 요소인 것처럼 독립적으로 렌더링된다.
+
+## shape-outside & float
+
+인접하는 인라인 콘텐츠를, 설정한 형태에 따라 감싸도록 처리. circle()을 선택한 경우 `circle({radius} at {x} {y})`로 위치를 결정한다.
+
+## filter
+
+그래픽 효과를 요소에 적용.
+
+- blur: 이미지가 흐릿해짐. px 단위의 값을 받고 값이 클수록 더 흐려진다.
+- brightness: 이미지를 밝거나 어둡게. % 또는 0~1 사이의 값.
+
+## background video
+
+## video element
+
+## object-fit property
