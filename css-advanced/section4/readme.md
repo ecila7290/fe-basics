@@ -68,3 +68,27 @@ video 태그를 통해 영상을 추가할 수 있다. 이 때 src 옵션에 출
 img, video와 같은 요소의 크기를 어떻게 조절할지 선택할 수 있다. https://developer.mozilla.org/ko/docs/Web/CSS/object-fit
 
 - cover: 콘텐츠의 가로세로비를 유지하면서 요소의 콘텐츠 박스를 가득 채운다. 가로세로 비율이 일치하지 않으면 객체 일부가 잘려나간다.
+
+## solid-color gradients
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient <br>
+linear-gradient의 color-stop 설정을 활용해서 solid-color와 transparent한 바탕을 동시에 나타낼 수 있다.
+
+## general & adjacent sibling selectors
+
+자식 요소가 아닌 같은 계층의 요소를 선택하고자 할 때는 + / ~를 사용한다. 이 때 +는 요소 바로 다음에 있는 요소 하나를 선택하게 되고 ~는 같은 계층의 모든 요소를 선택하게 된다.
+
+## ::input-placeholder
+
+## :focus, :invalid, :placeholder-shown, :checked
+
+- :focus
+  input등에서 클릭된 요소. `outline: none;`으로 설정해서 클릭시 감싸는 선을 제거할 수 있으나, 제거할 경우 칸이 선택됐다는 표시를 별도로 해주는 것이 좋다.
+
+- :invalid
+  input의 email처럼 html에서 validation을 제공하는 경우, 해당 pseudo-class를 사용해서 invalid한 경우의 스타일을 별도로 지정해줄 수 있다.
+
+- :placeholder-shown
+  input, textarea 등에서 placeholder를 설정한 상태일 때, placeholder가 나타난 경우의 스타일을 지정.
+
+## build custom radio buttons
