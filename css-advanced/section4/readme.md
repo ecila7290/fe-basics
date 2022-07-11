@@ -105,7 +105,7 @@ linear-gradient의 color-stop 설정을 활용해서 solid-color와 transparent�
 
 ## cubic bezier curves
 
-custom animation timing functions
+transition에서 요소를 제어할 때 cubic-bezier curve 효과를 주도록 하는 방법. ease-in, ease-out 등 빌트인 세팅이 있지만 좀더 커스텀한 제어를 원할 때는 https://easings.net/ko 에서 찾아볼 수 있다.
 
 ## animate 'solid-color gradients'
 
