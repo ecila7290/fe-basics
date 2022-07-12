@@ -110,3 +110,23 @@ transition에서 요소를 제어할 때 cubic-bezier curve 효과를 주도록 
 ## how and why to use transform-origin
 
 transformation이 일어나는 기준 축을 정한다. 기본값은 center.
+
+## :target
+
+id와 같은 고유한 요소와 링크의 href를 연결하고, 클릭했을 때 CSS를 적용할 수 있다.
+
+## display: table-cell
+
+사용하기 위해서는 부모 요소에 `display:table;`을 설정해야 한다. table-cell은 td로 변환한 것과 같은 효과를 내며 이로 인해 정렬을 쉽게 할 수 있다.
+
+## CSS text columns
+
+긴 텍스트를 신문처럼 컬럼으로 나누어 보여줄 수 있다. `column-count`로 컬럼의 개수, `column-gap`으로 컬럼간의 간격, `column-rule`로 컬럼 사이에 구분선을 설정할 수 있다. <br>
+해당 기능은 prefix 필요
+
+## hyphens
+
+줄바꿈으로 인해 단어가 연결되지 않으면 하이픈으로 연결해준다. 적용하기 위해서는 html의 lang 설정이 필요하다. <br>
+해당 기능은 prefix 필요
+
+prefix는 손으로 입력하는 것이 아니라 auto prefixer 등을 사용하는 것이 바람직하다.
