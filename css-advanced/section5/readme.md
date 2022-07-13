@@ -16,3 +16,5 @@ https://gs.statcounter.com/screen-resolution-stats#monthly-202106-202206-bar 에
 mixin을 적용할 때 @content를 통해 스타일 블록을 추가하도록 할 수 있다.
 
 rem은 미디어쿼리에서 의도대로 동작하지 않는 경우가 있어 em을 사용한다.
+
+## 
