@@ -39,3 +39,9 @@ src대신 srcset을 넣고 `<img srcset="img/logo-green-1x.png 1x, img/logo-gree
 화면 크기에 따라 다른 이미지를 넣어줄 수도 있는데, 이 때는 picture를 사용하고 태그 안에 source 태그를 추가한다. 그리고 img태그도 같이 추가해서 source에 에러가 발생했을 때를 대비한다.  
 source태그에는 srcset 속성과 media 속성을 넣는데, 그중 media 속성은 media query와 같이 max-width 등의 조건을 넣어줄 수 있다.  
 `<source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">`
+
+## 기타
+
+- media query는 and, not, only를 사용해 여러 조건을 결합할 수도 있다. or 조건은 콤마를 사용한다.
+
+# Browser support
