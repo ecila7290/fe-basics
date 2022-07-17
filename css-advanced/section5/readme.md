@@ -45,3 +45,12 @@ source태그에는 srcset 속성과 media 속성을 넣는데, 그중 media 속�
 - media query는 and, not, only를 사용해 여러 조건을 결합할 수도 있다. or 조건은 콤마를 사용한다.
 
 # Browser support
+
+## @supports
+
+브라우저가 기술된 조건의 요소를 지원하면 적용하고, 그렇지 않으면 적용하지 않는다.
+media query와는 다르게 or는 or로 입력해야 한다.
+
+## backdrop-filter
+
+요소 뒤의 영역에 다양한 효과를 줄 수 있음. blur와 더불어 색상 변화도 가능. 요소 뒤 모든 영역에 적용되기 때문에 효과를 확인하려면 요소나 배경을 어느정도 투명하게 해야 함.
