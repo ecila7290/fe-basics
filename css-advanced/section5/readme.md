@@ -54,3 +54,10 @@ media query와는 다르게 or는 or로 입력해야 한다.
 ## backdrop-filter
 
 요소 뒤의 영역에 다양한 효과를 줄 수 있음. blur와 더불어 색상 변화도 가능. 요소 뒤 모든 영역에 적용되기 때문에 효과를 확인하려면 요소나 배경을 어느정도 투명하게 해야 함.
+
+# Final considerations
+
+- 드래그 색상 변경: `::selection` pseudo element를 드래그했을 때의 스타일을 변경할 수 있다.
+- only screen: media query가 스크린에서만 적용되도록 한다. (프린트 시에는 적용 안되는 등.)
+- `<meta name="viewport">`: 반응형 디자인을 위해서는 해당 태그에 `content="width=device-width, initial-scale=1.0"` 속성을 넣어야 한다.
+-
